@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'minecraft';
+  src: url('/font/Minecraftia-Regular.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'minecraft';
+}
+
+body {
+    background: #1A1A1D;
+    background: linear-gradient(0deg, #1A1A1D 0%, #4E4E50 50%, #C5A880 100%);
+    height: 100%;
+}
+
+.fcc {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(255,255,255,0));
+}
+
+.fcc-text {
+    text-align: center;
+    font-size: 46px;
+    color: lightgoldenrodyellow;
+    text-shadow: 0 0 10px #0006;
+}
+.fc {
+    width: 90%;
+    display: block;
+    filter: drop-shadow(0px 0px 80px #0009);
+    display: none;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.ft1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    border: 5px solid transparent;
+    outline: 5px solid lightgoldenrodyellow;
+    transform: rotate(5deg);
+    filter: drop-shadow(0px 0px 10px #fff3);
+}
+
+.textContent1 {
+    border-top: 1px solid #fff;
+    color: #F8F1E5;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px 20px;
+}
+.title1 {
+    text-shadow: 0 0 10px #fff6;
+}
+.text1 {
+    text-shadow: 0 0 10px #fff6;
+}
+
+.ft2 {
+    width: 80%;
+    border: 5px solid transparent;
+    outline: 2.5px solid lightgoldenrodyellow;
+    filter: drop-shadow(0px 0px 10px #fff3);
+    transform: rotate(-5deg);
+}
+
+.ft3 {
+    width: 80%;
+    border: 5px solid transparent;
+    outline: 2.5px solid lightgoldenrodyellow;
+    filter: drop-shadow(0px 0px 10px #fff3);
+    transform: rotate(7deg);
+}
+
+.ft4 {
+    width: 60%;
+    border: 5px solid transparent;
+    outline: 2.5px solid lightgoldenrodyellow;
+    filter: drop-shadow(0px 0px 10px #fff3);
+    transform: rotate(7deg);
+}
+
+.pregunta1 {
+    border: 5px solid transparent;
+    outline: 2.5px solid lightgoldenrodyellow;
+    padding: 10px;
+    transform: rotate(2deg);
+}
+
+#fecha1 {
+    background: #fff1;
+    border: 0;
+    border-bottom: 1.5px solid #fff6;
+    text-align: center;
+    color: white;
+}
+
+#fechaBtn1 {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 2.5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.pregunta2 {
+    border: 5px solid transparent;
+    outline: 2.5px solid lightgoldenrodyellow;
+    padding: 10px;
+    transform: rotate(-3deg);
+}
+
+#fecha2 {
+    background: #fff1;
+    border: 0;
+    border-bottom: 1.5px solid #fff6;
+    text-align: center;
+    color: white;
+}
+
+#fechaBtn2 {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 2.5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.cartaV {
+    width: 50%;
+    margin: auto;
+    transform: rotate(5deg);
+    filter: drop-shadow(0px 0px 5px #fff9);
+}
+.cartaBg {
+    width: 100%;
+    height: 100%;
+    background: #0008;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+    
+}
+
+.carta {
+    width: 90%;
+    z-index: 3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    filter: drop-shadow(0px 0px 5px #fff9);
+}
+
+.ftTodo {
+    width: 95%;
+    filter: drop-shadow(0px 0px 10px #fff3);
+    
+}
+
+.textoTodo {
+    text-shadow: 0 0 10px #fff9;
+}
+
+.final {
+    height: 200px;
+}
+
+.disco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discoImg {
+    width: 50%;
+    margin: 20px;
+    border: 5px solid white;
+    border-radius: 999999px;
+    filter: drop-shadow(0px 0px 10px #fff7);
+}
+
+.mover {
+    animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.discoBtn {
+    background: #0005;
+    border: 2px solid white;
+    padding: 5px;
+    color: white;
+}
